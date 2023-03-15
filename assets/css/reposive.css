@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  .nav-content h1 {
+    font-size: 25px;
+  }
+  .nav-content__title {
+    font-size: 12px;
+  }
+  .option-item {
+    width: 200px;
+    height: 300px;
+  }
+  .option-item:hover {
+    height: 400px;
+  }
+  .option-content {
+    margin-top: 115px;
+  }
+  .option-item img {
+    padding: 30px 0;
+    width: 100px;
+  }
+  .option__name {
+    font-size: 15px;
+  }
+}
