@@ -23,3 +23,25 @@
     font-size: 15px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .navbar {
+    padding-top: 60%;
+  }
+  .nav-content {
+    width: 400px;
+  }
+  .nav-content h1 {
+    font-size: 33px;
+  }
+  .nav-content__title {
+    font-size: 16px;
+  }
+
+  .option-list {
+    flex-direction: column;
+  }
+  .option-item {
+    margin-bottom: 110px;
+  }
+}
