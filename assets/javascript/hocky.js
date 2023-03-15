@@ -249,7 +249,7 @@ const handleClick = (e) => {
 
   setTimeout(function () {
     location.reload();
-    window.location = location.origin;
+    window.location = `${location.origin}/BaiKTGK`;
   }, 4000);
 };
 
