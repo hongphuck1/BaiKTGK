@@ -243,13 +243,13 @@ const toasts = {
     msg: "This is a warning message !",
   },
 };
+
 const handleClick = (e) => {
   createToast("success");
   //   location.reload();
-
   setTimeout(function () {
     location.reload();
-    window.location = `${location.origin}/BaiKTGK`;
+    // window.location = `${location.origin}`;
   }, 4000);
 };
 
