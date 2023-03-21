@@ -235,11 +235,24 @@ input[type="radio"]:checked:after {
 
 @media screen and (max-width: 768px) {
   .main {
-    width: 660px;
+    width: 550px;
   }
 }
 @media screen and (max-width: 500px) {
   .main {
-    width: 450px;
+    width: 400px;
+  }
+  .contact-question:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    width: 350px;
+  }
+
+  .contact-question:last-child {
+    display: none;
   }
 }
